@@ -6,7 +6,7 @@
     font-family: 'poppins' , 'san-serif';
 }
 body{
-   background: url(images/1.png);
+   background: url(images/211.png);
    background-size: cover;
    background-attachment:fixed;
    background-repeat: no-repeat;
@@ -34,6 +34,7 @@ body{
     font-size: 25px;
     font-weight: 800;
     font-family: 'poppins';
+    text-shadow: 3px 3px 7px hsl(0, 100%, 85%), -3px -3px 7px hsl(199, 100%, 50%);
 }
 .nav-menu ul{
     display: flex;
@@ -50,6 +51,7 @@ body{
 }
 .link:hover, .active{
     border-bottom: 1.3px solid white;
+    transition: 2s ease-in;
 }
 .nav-button .btn{
     width: 130px;
@@ -182,6 +184,15 @@ header{
 }
 .two label a:hover{
     text-decoration: underline;
+}
+.return{
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+}
+.return:hover{
+    cursor: pointer;
+    color: white;
 }
 @media only screen and (max-width:786px){
     .nav-button{

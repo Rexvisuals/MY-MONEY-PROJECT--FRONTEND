@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Money</title>
+    <link rel="icon" type="image/jpg" href="images/mymoneyicon1.jpg">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <link rel="script" href="script.js">
+    <script scr="script" href="script.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -17,16 +18,16 @@
             <div class="nav-menu" id="navMenu">
                 <ul>
                     <li><a href="#" class="link active">Home</a></li>
-                    <li><a href="#" class="link">Services</a></li>
+                    <li><a href="services.html" class="link">Services</a></li>
                     <li><a href="#" class="link">About Us</a></li>
                 </ul>
             </div>
             <div class="nav-button">
                 <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
                 <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
-            </di>
+            </div>
             <div class="nav-menu-btn">
-                <i class="bx bx-menu-alt-right" onclick="myMenuFunction"></i>
+                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
             </div>
         </nav>
         <!-------------------------- Form box ------------------------------>
@@ -45,7 +46,8 @@
                 </div>
                 <div class="input-box">
                     <input type="password" class="input-field" placeholder="Password">
-                    <i class="bx bx-lock-alt"></i>
+                    <!-- <i class="bx-lock-alt"></i> -->
+                     <i class="bx bx-lock-alt"></i>
                 </div>
                 <div class="input-box">
                     <input type="submit" class="submit" value="Sign In">
@@ -56,7 +58,7 @@
                         <label for="login-check">Remember Me</label>
                     </div>
                     <div class="two">
-                        <label><a href="#">Forgot password?</a></label>
+                        <label><a href="forgetpassword.html">Forgot password?</a></label>
                     </div>
                 </div>
             </div>
@@ -141,5 +143,6 @@ function register() {
     y.style.opacity = 1;
 }
 </script>
+
 </body>
 </html>
