@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Money</title>
+    <link rel="icon" type="image/jpg" href="images/mymoneyicon1.jpg">
+    <link rel="stylesheet" href="dashboardcelina.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-title">My Money Dashboard</div>
+        <button class="menu-icon" id="menu-icon" onclick="toggleSidebar()">☰</button>
+        <div class="navbar-menu">
+            <a href="#overview">Overview</a>
+            <a href="#income">Income</a>
+            <a href="#expenses">Expenses</a>
+            <a href="#settings">Settings</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <a href="#overview">Dashboard Overview</a>
+            <a href="#income">Income</a>
+            <a href="#expenses">Expenses</a>
+            <a href="#settings">Settings</a>
+            <a href="#reports">Reports</a>
+            <a href="#" class="logout">Log out</a>
+        </div>
+        <div class="main-content">
+            <div id="overview" class="card" onclick="alert('Navigating to Overview')">
+                <h3>Overview</h3>
+                <p>Quick summary of your financial status.</p>
+            </div>
+            <div id="income" class="card" onclick="alert('Navigating to Income')">
+                <h3>Income</h3>
+                <p>Details about your income sources.</p>
+            </div>
+            <div id="expenses" class="card" onclick="alert('Navigating to Expenses')">
+                <h3>Expenses</h3>
+                <p>Details about your expenses.</p>
+            </div>
+            <div id="settings" class="card" onclick="alert('Navigating to Settings')">
+                <h3>Settings</h3>
+                <p>Manage your preferences and settings.</p>
+            </div>
+            <div id="reports" class="card" onclick="alert('Navigating to Reports')">
+                <h3>Reports</h3>
+                <p>Generate financial reports.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById('sidebar');
+            var menuIcon = document.getElementById('menu-icon');
+
+            
+            sidebar.classList.toggle('expanded');
+
+            
+            if (sidebar.classList.contains('expanded')) {
+                menuIcon.textContent = '×'; 
+            } else {
+                menuIcon.textContent = '☰'; 
+            }
+        }
+    </script>
+</body>
+</html>
