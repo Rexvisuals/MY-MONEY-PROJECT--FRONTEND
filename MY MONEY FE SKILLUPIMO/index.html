@@ -7,7 +7,7 @@
     <link rel="icon" type="image/jpg" href="images/mymoneyicon1.jpg">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <script scr="script" href="script.js"></script>
+    <!-- <script scr="script"></script> -->
 </head>
 <body>
     <div class="wrapper">
@@ -108,10 +108,10 @@
     function myMenuFunction() {
         var i = document.getElementById("navMenu");
 
-       if(i.className === "nav-menu") {
+       if(i.className === " nav-menu") {
            i.className += " responsive";
         } else {
-         i.className = "nav-menu";
+         i.className = " nav-menu";
         }
     } 
 
@@ -121,7 +121,7 @@
 <script>
     
 var a = document.getElementById("loginBtn");
-var b = document.getElementById("RegisterBtn");
+var b = document.getElementById("registerBtn");
 var x = document.getElementById("login");
 var y = document.getElementById("register");
  
@@ -129,7 +129,7 @@ function login() {
     x.style.left = "4px";
     y.style.right = "-520px";
     a.className += " white-btn";
-    b.className = "btn";
+    b.className = " btn";
     x.style.opacity = 1;
     y.style.opacity = 0;
 }
@@ -137,8 +137,8 @@ function login() {
 function register() {
     x.style.left = "-510px";
     y.style.right = "5px";
-    a.className = "btn";
-    b.className += "white-btn";
+    a.className = " btn";
+    b.className += " white-btn";
     x.style.opacity = 0;
     y.style.opacity = 1;
 }

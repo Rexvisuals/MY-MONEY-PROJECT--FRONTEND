@@ -5,95 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Money</title>
     <link rel="icon" type="image/jpg" href="images/mymoneyicon1.jpg">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="aboutusrex.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1, h2 {
-            color: #0056b3;
-            text-align: center;
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
-        .section-title {
-            font-size: 1.2em;
-            margin: 20px 0 10px;
-            font-weight: bold;
-            border-bottom: 2px solid #0056b3;
-            padding-bottom: 5px;
-        }
-
-        .contact-info, .social-media {
-            margin: 20px 0;
-        }
-
-        .social-icons {
-            display: flex;
-            gap: 50px;
-            margin-top: 10px;
-        }
-
-        /* .social-icons img {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-        } */
-
-        .footer {
-            text-align: center;
-            margin-top: 30px;
-            padding: 15px 0;
-            font-size: 0.9em;
-            color: white;
-            background-color: #0056b3; /* Changed background color */
-        }
-
-        .footer a {
-            color: white;
-            text-decoration: none;
-        }
-
-        .footer a:hover {
-            text-decoration: underline;
-        }
-
-        a {
-            color: #0056b3;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: none;
-            /* translate: 1px 0.5px 0.5px; */
-            background-color: rgb(10, 29, 51);
-            border-radius: 5px;
-            padding: 5px;
-            color: white;
-            /* text-shadow: 1px 3px 10px #42638691 ; */
-        }
-    </style>
+    <script src="script.js"></script>
 </head>
 <body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+                <p>MY MONEY</p>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="index.html" class="link">Home</a></li>
+                    <li><a href="servicessteph.html" class="link">Services</a></li>
+                    <li><a href="aboutussteph.html" class="link active">About Us</a></li>
+                </ul>
+            </div>
+            <!-- <div class="nav-button">
+                    <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                    <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
+            </div> -->
+                <div class="nav-menu-btn">
+                    <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+                </div>
+         </nav>
+    </div>
     <div class="container">
         <a href="index.html">Go Back</a>
         <br>
