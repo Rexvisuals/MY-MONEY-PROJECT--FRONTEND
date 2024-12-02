@@ -1,0 +1,60 @@
+*Project Overview*
+
+"My Money" is a personal finance app designed to help users track and manage their expenses. As the frontend developer, you focused on creating a visually appealing and user-friendly interface.
+
+*Graphics Design*
+
+The graphics design for "My Money" aims to convey a sense of financial stability and growth. The color scheme, typography, and imagery work together to create a cohesive and professional visual identity.
+
+*Color Scheme*
+
+- Primary color: #34C759 (a soothing green tone representing growth and harmony)
+- Secondary color: #2E2E2E (a neutral gray tone used for backgrounds and text)
+- Accent color: #FFC107 (a vibrant orange tone used for highlights and calls-to-action)
+
+*Typography*
+
+- Font family: Open Sans
+- Font sizes:
+    - Header: 24px
+    - Subheader: 18px
+    - Body text: 14px
+
+*Imagery*
+
+- Icons: Custom-designed icons using a consistent style and color scheme
+- Images: High-quality images of financial-related concepts, such as piggy banks, wallets, and charts
+
+*Frontend Development*
+
+The frontend of "My Money" was built using HTML, CSS, and JavaScript. The following features were implemented:
+
+*Features*
+
+- Responsive design for mobile and desktop devices
+- Interactive charts and graphs to display financial data
+- Custom-designed icons and imagery
+- Smooth animations and transitions for a seamless user experience
+
+*Technologies Used*
+
+- HTML5
+- CSS3 (using Sass for preprocessing)
+- JavaScript (using React for building reusable UI components)
+- Chart.js for creating interactive charts and graphs
+
+*Challenges and Solutions*
+
+During the development process, several challenges were encountered and overcome:
+
+*Challenges*
+
+- Creating a responsive design that worked seamlessly across different devices and screen sizes
+- Implementing interactive charts and graphs that were both visually appealing and easy to use
+- Ensuring consistent branding and visual identity throughout the app
+
+*Solutions*
+
+- Using a mobile-first approach to design and development
+- Utilizing Chart.js to create interactive and customizable charts and graphs
+- Creating a comprehensive style guide to ensure consistency in branding and visual Identity. 
