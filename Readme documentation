@@ -1,0 +1,33 @@
+My Money App Front-End Documentation
+
+Overview
+
+My Money is an expense tracker app designed to help users manage their finances effectively. The app features a user-friendly interface and is built using React Native, CSS, and JavaScript.
+
+Features
+
+•⁠  ⁠Expense tracking: Users can add and categorize their expenses with ease.
+•⁠  ⁠Budgeting: Users can set a budget and receive alerts when they go over budget.
+•⁠  ⁠Financial goals: Users can set and track financial goals, such as saving for a specific purpose.
+•⁠  ⁠Dashboard overview: A graph showing expense categories, a list of recent transactions, a budget tracker, and a financial goals progress bar.
+•⁠  ⁠About Us page: Information about the app and its developers.
+
+Front-End Tools
+
+•⁠  ⁠React Native: Used for building the app's UI components and structure.
+•⁠  ⁠CSS: Used for styling and layout.
+•⁠  ⁠JavaScript: Used for dynamic functionality and interactions.
+. html
+
+Dashboard
+
+•⁠  ⁠Graph: Displays expense categories and their respective percentages.
+•⁠  ⁠Recent transactions: Lists the user's most recent transactions.
+•⁠  ⁠Budget tracker: Displays the user's budget and alerts them when they go over budget.
+•⁠  ⁠Financial goals: Displays the user's financial goals and their progress.
+
+About Us
+
+•⁠  ⁠App description: A brief overview of the app's purpose and features.
+•⁠  ⁠Developer bios: Information about the app's developers.
+•⁠  ⁠Contact information: How to get in touch with the app's developers.
