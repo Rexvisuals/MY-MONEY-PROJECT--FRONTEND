@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY MONEY</title>
+    <link rel="icon" type="image/jpg" href="imagesupdated/MyMoney Icon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="landingindex.css">
+</head>
+<style>
+.nav-logo{
+    padding: 10px;
+    /* margin-right: 600px; */
+}
+
+ body, html {
+     height: 100%;
+     margin: 0;
+     font-family: Arial, sans-serif;
+      overflow: hidden;
+     }
+.slideshow-container {
+     position: relative;
+     height: 100%;
+     width: 100%;
+     }
+.mySlides {
+     display: none;
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     background-size: cover;
+     background-position: center;
+     }
+.fade {
+     animation-name: fade;
+     animation-duration: 2s;
+      }
+ @keyframes fade {
+     from {opacity: .4} 
+      to {opacity: 1}
+      }
+</style>
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+                <!-- <p>MY MONEY</p> -->
+                <img class="logo" src="imagesupdated/MyMoney Icon 1.png" alt="MyMoneyLogo">
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="index.html" class="link active">Home</a></li>
+                    <li><a href="servicessteph.html" class="link">Services</a></li>
+                    <li><a href="aboutussteph.html" class="link">About Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+    <!-- <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+               <img class="logo" src="imagesupdated/MyMoney Icon 1.png" alt="MyMoneyLogo">
+            </div>
+            <div class="nav-button">
+                <a href="index.html" class="btn" id="loginBtn">Sign In</a>
+                <a href="index.html" class="btn" id="registerBtn">Sign Up</a>
+                <button class="btn" id="registerBtn">Sign Up</button> -->
+            </div>
+            <!-- <div class="nav-menu-btn">
+                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+            </div> -->
+        </nav>
+    </div>
+    <div class="slideshow-container">
+    <div class="mySlides fade" style="background-image: url('images/BG1.jpg');"></div>
+    <div class="mySlides fade" style="background-image: url('images/BG2.jpg');"></div>
+    <!-- <div class="mySlides fade" style="background-image: url('');"></div>
+    <div class="mySlides fade" style="background-image: url('');"></div>
+    <div class="mySlides fade" style="background-image: url('image3.jpg');"></div> -->
+    </div> 
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let slides = document.getElementsByClassName("mySlides");
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        slides[slideIndex-1].style.display = "block";  
+        setTimeout(showSlides, 5000); // Change image every 5 seconds
+    }
+</script>
+
+</body>
+</html>

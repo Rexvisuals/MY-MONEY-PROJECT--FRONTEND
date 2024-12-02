@@ -18,7 +18,9 @@ body{
 .container a{
     float: right;
 }
-
+.nav-logo{
+    padding: 10px;
+}
 .container .btn{
         text-decoration: none;
         color: rgba(0, 0, 0, 0.5);
